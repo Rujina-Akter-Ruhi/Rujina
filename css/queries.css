@@ -1,0 +1,139 @@
+
+@media screen and (max-width: 1400px) {
+    #portfolio{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .row {
+        width: 100%;
+        padding: 0px 30px;
+    }
+    #experience {
+        height: 600px;
+    }
+    .grid-experience-container h3 {
+        font-size: 190%;
+    }
+    .grid-experience-container h4 {
+        font-size: 120%;
+    }
+    .grid-experience-container p {
+        font-size: 80%;
+    }
+    .grid-portfolio-item:nth-child(5) {
+        height: 235px;
+    }
+    #portfolio{
+        margin-top: 20px;
+    }
+    .hero-text-box {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #portfolio{
+        margin-top: 20px;
+    }
+    .grid-portfolio-item:nth-child(5) {
+        height: 203px;
+    }
+    .description {
+        font-size: 80%;
+    }
+    .intro {
+        font-size: 130%;
+    }
+    .menu-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+  #portfolio{
+    margin-top: 10px;
+  }
+ 
+    .hero-text-box h1 {
+        font-size: 220%;
+    }
+    .hero-text-box span {
+        font-size: 110%;
+    }
+    .grid-about-container {
+        grid-template-columns: 1fr;
+    }
+    .grid-about-item .paul {
+        width: 100%;
+    }
+    .female {
+        width: 350px;
+    }
+    .grid-about-container {
+        text-align: center;
+    }
+    #process{
+        margin-top: 400px;
+    }
+    .grid-process-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .section-title h2 {
+        font-size: 170%;
+    }
+    .grid-portfolio-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-item:nth-child(5) {
+        height: 300px;
+    }
+    .item-6,
+    .item-7 {
+        position: relative;
+        bottom: 67px;
+    }
+    .grid-experience-container {
+        grid-template-columns: 1fr;
+    }
+    #experience {
+        height: 600%;
+    }
+    .grid-education-item {
+        margin-bottom: 40px;
+    }
+    .grid-contact-container {
+        grid-template-columns: 1fr;
+    }
+    #testimonial {
+        height: 600px;
+    }
+    .menu-container {
+        width: 100%;
+    }
+    .close-btn {
+        right: 80px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .female {
+        width: 300px;
+    }
+    #process{
+        margin-top: 400px;
+    }
+    .grid-process-container {
+        grid-template-columns: 1fr;
+    }
+    .grid-portfolio-container {
+        grid-template-columns: 1fr;
+    }
+    .grid-testimonial-container {
+        grid-template-columns: 1fr;
+    }
+    .menu-container {
+        width: 100%;
+    }
+    .close-btn {
+        right: 75px;
+    }
+}
